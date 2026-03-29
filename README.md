@@ -9,3 +9,8 @@ This repository contains the technical audit and shell scripts for the OSS Capst
 - `auditor.sh`: Permissions audit of Git directories.
 - `analyzer.sh`: Log analysis for Git events.
 - `manifesto.sh`: Interactive philosophy generator.
+
+## How to Run
+1. Clone: `git clone https://github.com/your-username/repo-name`
+2. Permission: `chmod +x scripts/*.sh`
+3. Execute: `./scripts/identity.sh`
