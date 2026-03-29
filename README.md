@@ -3,11 +3,17 @@ The Open Source Audit project explores the philosophy, licensing, and impact of 
 # Git Open Source Audit
 This repository contains the technical audit and shell scripts for the OSS Capstone Project.
 
+## How to Run
+1. Clone: `git clone https://github.com/your-username/repo-name`
+2. Permission: `chmod +x scripts/*.sh`
+3. Execute: `./scripts/identity.sh`
+
 Execution Instructions
 Before running the scripts, you must grant execution permissions to the .sh files.
 1. Set Permissions:
-   chmod +x *.sh
-2. Run the Scripts:
+         chmod +x *.sh
+3. Run the Scripts:
+   
    ./identity.sh - "Displays system info, kernel version, and the Git license (GPL v2)."
    ./inspector.sh - Verifies if Git is installed and prints its FOSS philosophy.
    ./auditor.sh - Scans system directories and checks Git config permissions.
