@@ -24,14 +24,17 @@ Execution Instructions
 Before running the scripts, you must grant execution permissions to the .sh files.
 1. Set Permissions:
          chmod +x *.sh
-3. Run the Scripts:
-   
-   1. ./identity.sh - "Displays system info, kernel version, and the Git license (GPL v2)."
-   2. ./inspector.sh - Verifies if Git is installed and prints its FOSS philosophy.
-   3. ./auditor.sh - Scans system directories and checks Git config permissions.
-   4. ./analyzer.sh /var/log/syslog git - Searches system logs for Git-related activity.
-   5. ./manifesto.sh - An interactive tool to generate a personal OSS philosophy file.
+2. Run the Scripts:
+   # Git Open Source Audit
+   This repository contains the technical audit and shell scripts for the OSS Capstone Project.
 
+## Contents
+- `identity.sh`: System overview.
+- `inspector.sh`: Git version and info.
+- `auditor.sh`: Permissions audit of Git directories.
+- `analyzer.sh`: Log analysis for Git events.
+- `manifesto.sh`: Interactive philosophy generator.
+   
 your-24BAI10222-git-project/
 ├── README.md
 └── scripts/
