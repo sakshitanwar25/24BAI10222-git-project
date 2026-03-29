@@ -28,13 +28,15 @@ Before running the scripts, you must grant execution permissions to the .sh file
    # Git Open Source Audit
    This repository contains the technical audit and shell scripts for the OSS Capstone Project.
 
-## Contents
-- `identity.sh`: System overview.
-- `inspector.sh`: Git version and info.
-- `auditor.sh`: Permissions audit of Git directories.
-- `analyzer.sh`: Log analysis for Git events.
-- `manifesto.sh`: Interactive philosophy generator.
-   
+   ## Contents
+   - `identity.sh`: System overview.
+   - `inspector.sh`: Git version and info.
+   - `auditor.sh`: Permissions audit of Git directories.
+   - `analyzer.sh`: Log analysis for Git events.
+   - `manifesto.sh`: Interactive philosophy generator.
+     
+File structure:
+
 your-24BAI10222-git-project/
 ├── README.md
 └── scripts/
