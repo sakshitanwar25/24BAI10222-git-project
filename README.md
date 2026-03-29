@@ -38,10 +38,10 @@ Before running the scripts, you must grant execution permissions to the .sh file
 File structure:
 
 your-24BAI10222-git-project/
-├── README.md
-└── scripts/
-    ├── identity.sh
-    ├── inspector.sh
-    ├── auditor.sh
-    ├── analyzer.sh
-    └── manifesto.sh
+   ─ README.md
+   ─ scripts/
+      ─ identity.sh
+      ─ inspector.sh
+      ─ auditor.sh
+      ─ analyzer.sh
+      ─ manifesto.sh
