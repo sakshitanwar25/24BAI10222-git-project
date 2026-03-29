@@ -14,11 +14,11 @@ Before running the scripts, you must grant execution permissions to the .sh file
          chmod +x *.sh
 3. Run the Scripts:
    
-   ./identity.sh - "Displays system info, kernel version, and the Git license (GPL v2)."
-   ./inspector.sh - Verifies if Git is installed and prints its FOSS philosophy.
-   ./auditor.sh - Scans system directories and checks Git config permissions.
-   ./analyzer.sh /var/log/syslog git - Searches system logs for Git-related activity.
-   ./manifesto.sh - An interactive tool to generate a personal OSS philosophy file.
+   1. ./identity.sh - "Displays system info, kernel version, and the Git license (GPL v2)."
+   2. ./inspector.sh - Verifies if Git is installed and prints its FOSS philosophy.
+   3. ./auditor.sh - Scans system directories and checks Git config permissions.
+   4. ./analyzer.sh /var/log/syslog git - Searches system logs for Git-related activity.
+   5. ./manifesto.sh - An interactive tool to generate a personal OSS philosophy file.
 
 your-24BAI10222-git-project/
 ├── README.md
